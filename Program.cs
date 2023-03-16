@@ -120,14 +120,12 @@ void LastIndexOf(string input, char searched)
 void TrimStart(string input, char searched)
 {
     int i = 0;
-    int memory = -1;
     bool end = false;
     for (; i < input.Length && end == false; i++)
     {
         int a = input[i];
         if (a == searched)
         {
-            memory = i;
         }
         else
         {
